@@ -23,7 +23,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Social settings
 github: cursorinsight
 maintainers:
-  - cursorinsight
+  - dobesbal
   - hcs42
 
 # Build settings
@@ -71,6 +71,7 @@ compress_html:
 assets:
   sources:
   - _assets/vendor
+  - _assets/images
   digest: true
   compression: true
   image: true

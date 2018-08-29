@@ -126,6 +126,17 @@ html {
       strong {
         color: #fff;
       }
+      span.sponsor{
+        font-weight: 600;
+        vertical-align: middle;
+      }
+      a.cilogo{
+        display: inline-block; 
+        width: 210px;
+        height: 45px;
+        background-image: asset_url("ci-logo.png");
+        background-size: cover;
+      }
     }
   }
 }

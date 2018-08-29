@@ -4,8 +4,21 @@
       <p class="is-size-4">
         <span class="has-text-weight-normal">{{ site.title }}</span> is maintained by {% for user in site.maintainers %}{% if site.maintainers.last == user %} and {% else %}{% unless site.maintainers.first == user %}, {% endunless %}{% endif %}<a class="has-text-weight-normal" href="https://github.com/{{ user }}">@{{ user }}</a>{% endfor %}
       </p>
-      <p class="is-size-6"><span class="has-text-weight-bold">Support</span> <a href="https://github.com/{{ site.github }}" target="_blank">{{ site.title }}</a></p>
-      <p><span class="has-text-weight-bold is-size-7">Visit our sponsor</span><br><a target="_blank" href="https://utensils.io" class="button is-inverted is-primary has-text-weight-bold is-medium">utensils.io</a></p>
+      <div>
+        <div style="display: inline-block; ; padding: 0 30px 0 30px">
+            <span class="has-text-weight-bold is-size-7" style="display: block">Visit our friends</span>
+            <div>
+            <a target="_blank" href="https://utensils.io" class="button is-inverted is-primary has-text-weight-bold is-medium">utensils.io</a>
+
+            </div>
+        </div>
+        <div style="display: inline-block; ; padding: 0 30px 0 30px">
+            <span class="has-text-weight-bold is-size-7" style="display: block">Visit our sponsor</span>
+            <div>
+              <a target="_blank" href="https://github.com/{{ site.github }}" class="cilogo">&nbsp;</a>
+            </div>
+        </div>
+      </div>
     </div>
   </div>
 </footer>
