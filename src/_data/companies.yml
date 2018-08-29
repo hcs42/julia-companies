@@ -14,4 +14,4 @@ Cursor Insight:
   url: https://cursorinsight.com
   github: https://github.com/cursorinsight/
   location: Budapest, Hungary
-  description: The backend of Cursor Insight's electronic signature solution (which serves millions of banking customers) is written in Erlang and Julia.
+  description: Our motion analysis engine (which serves millions of banking customers by verifying their electronic signatures) is implemented in Julia.
